@@ -6,7 +6,10 @@
   </head>
   <body>
     <script>
-      window.open(document.getElementbyId("open").value);
+      function Open() {
+        window.open(document.getElementbyId("open").value);
+      }
     </script>
     <input id="open" placeholder="link" type="text">
+    <button onClick="Open(); class="button blue"></button>
   </body>
